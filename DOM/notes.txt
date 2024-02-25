@@ -1,0 +1,1 @@
+DOM is used for dyanamic changes during runtime

@@ -1,0 +1,25 @@
+body{
+    background-color: cornflowerblue;
+}
+h1{
+    background-color: rgb(80, 210, 106);
+}
+button{
+    background-color: blueviolet;
+    color: white;
+}
+.myClass{
+    background-color: aqua;
+    border: 2px solid black;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    padding: 4px;
+}
+.div{
+    height: 250px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: blueviolet;
+    color: white;
+}
