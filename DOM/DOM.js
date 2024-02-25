@@ -1,5 +1,5 @@
-// let el = document.getElementsByClassName("myClass");
-// console.log(el);
+let el = document.getElementsByClassName("myClass");
+console.log(el);
 // let q = document.querySelector(".myClass");
 // let tag = q.tagName;
 // console.log(tag);
@@ -39,8 +39,23 @@ let create = document.createElement("button");
 create.innerText = "ClickMe!";
 let ch = document.querySelector(".div");
 ch.append(create);
-ch.prepend(create);
+create.style.backgroundColor="red";
+create.style.color="white";
 let create2 = document.createElement("button");
 create2.innerText = "New Button";
 ch.before(create2);
 ch.after(create2);
+let para = document.querySelector("p");
+para.remove();
+
+
+let body = document.querySelector("body");
+let tButton = document.createElement("button");
+tButton.innerText = "ClickME!";
+body.prepend(tButton);
+tButton.style.backgroundColor = "red";
+tButton.style.color = "white";
+
+let pTAG = document.querySelector("h6");
+console.log(pTAG);
+pTAG.classList.add("newContent");

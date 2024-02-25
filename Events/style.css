@@ -1,0 +1,14 @@
+.div{
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    border: 2px dotted black;
+}
+.light{
+    background-color: white;
+    color: black;
+}
+.dark{
+    background-color: black;
+    color: white;
+}

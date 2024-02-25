@@ -23,3 +23,10 @@ button{
     background-color: blueviolet;
     color: white;
 }
+
+.content{
+    color: red;
+}
+.newContent{
+    background-color: chartreuse;
+}
